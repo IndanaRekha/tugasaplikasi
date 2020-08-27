@@ -51,14 +51,73 @@ class SettingAppbar extends StatelessWidget {
                 leading: Icon(Icons.message),
                 title: Text('Messages'),
               ),
+                ListTile(
+                leading:
+             Icon(Icons.translate), 
+                title: Text('terjemahan'), 
+                ), 
               ListTile(
                 leading: Icon(Icons.account_circle),
                 title: Text('Profile'),
               ),
               ListTile(
+                leading:
+              Icon(Icons.account_box), 
+                title: Text('Kontak'), 
+                ), 
+              ListTile(
                 leading: Icon(Icons.settings),
                 title: Text('Settings'),
               ),
+               ListTile(
+                leading: Icon(Icons.favorite),
+                title: Text('Love'),
+              ),
+              ListTile(
+                leading:
+            Icon(Icons.language), 
+                title: Text('Bahasa'), 
+                ), 
+              ListTile(
+                leading:
+           Icon(Icons.help_outline), 
+                title: Text('bantuan'),  
+                ),
+              ListTile(
+                leading:
+             Icon(Icons.get_app), 
+                title: Text('download'), 
+                ), 
+             ListTile(
+                leading:
+            Icon(Icons.delete), 
+                title: Text(' hapus '),
+                ), 
+              ListTile(
+                leading:
+              Icon(Icons.backup), 
+                title: Text('Pemulihan'), 
+                ), 
+                ListTile(
+                  leading:
+              Icon(Icons.gif), 
+                  title: Text(' gif '), 
+                ),
+              ListTile(
+                leading:
+             Icon(Icons.event), 
+                title: Text('kalender'), 
+                ), 
+              ListTile(
+                leading:
+            Icon(Icons.fingerprint), 
+                title: Text('fingerprint'), 
+                ), 
+              ListTile(
+                leading:
+             Icon(Icons.exit_to_app), 
+                title: Text('keluar'), 
+              ), 
             ],
           ),
          ),
